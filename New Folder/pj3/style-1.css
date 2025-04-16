@@ -1,0 +1,33 @@
+body {
+    background-color: #f5f7fa;
+  }
+  
+  .navbar .nav-link {
+    font-weight: 500;
+    color: #444;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #d63384;
+  }
+  
+  .card img {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover img {
+    transform: scale(1.05);
+  }
+  
+  h4, h5 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+  }
+
+  .shadow-sm:hover {
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  

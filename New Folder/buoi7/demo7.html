@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Web Thương Mại Điện Tử</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .product-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .product {
+            width: 30%;
+            background: #fff;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .media {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Trang Web Thương Mại Điện Tử - Demo</h1>
+        
+        <h2>Sản Phẩm</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="/z6438616019137306f95ffaf73fdd35a2edf7ae65c2e8f_e4YJC2nGr3doQfGny-original.jpg" alt="Sản phẩm 1">
+                <p>Sản phẩm 1 - Giá: 500.000đ</p>
+            </div>
+            <div class="product">
+                <img src="/z6438616019137306f95ffaf73fdd35a2edf7ae65c2e8f_e4YJC2nGr3doQfGny-original.jpg" alt="Sản phẩm 2">
+                <p>Sản phẩm 2 - Giá: 700.000đ</p>
+            </div>
+            <div class="product">
+                <img src="/z6438616019137306f95ffaf73fdd35a2edf7ae65c2e8f_e4YJC2nGr3doQfGny-original.jpg" alt="Sản phẩm 3">
+                <p>Sản phẩm 3 - Giá: 1.200.000đ</p>
+            </div>
+            <div class="product">
+                <img src="/z6438616019137306f95ffaf73fdd35a2edf7ae65c2e8f_e4YJC2nGr3doQfGny-original.jpg" alt="Sản phẩm 3">
+                <p>Sản phẩm 4 - Giá: 200.000đ</p>
+            </div>
+        </div>
+        
+        <h2>Bảng Giá Sản Phẩm</h2>
+        <table>
+            <tr>
+                <th>Tên Sản Phẩm</th>
+                <th>Giá</th>
+            </tr>
+            <tr>
+                <td>Sản phẩm 1</td>
+                <td>500.000đ</td>
+            </tr>
+            <tr>
+                <td>Sản phẩm 2</td>
+                <td>700.000đ</td>
+            </tr>
+            <tr>
+                <td>Sản phẩm 3</td>
+                <td>1.200.000đ</td>
+            </tr>
+            <tr>
+                <td>Sản phẩm 4</td>
+                <td>200.000đ</td>
+            </tr>
+        </table>
+        
+        <div class="media">
+            <h2>Giới Thiệu Bằng Video</h2>
+            <video controls width="80%">
+                <source src="video.mp4" type="video/mp4">
+                Trình duyệt của bạn không hỗ trợ video.
+            </video>
+            
+            <h2>Âm Thanh Quảng Cáo</h2>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Trình duyệt của bạn không hỗ trợ âm thanh.
+            </audio>
+        </div>
+    </div>
+</body>
+</html>

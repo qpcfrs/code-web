@@ -1,0 +1,24 @@
+<style>
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      height: 100px;
+      border: 1px solid black;
+    }
+    
+    .item {
+      flex: 1; /* grow: 1, shrink: 1, basis: 0 */
+      padding: 10px;
+      background: lightblue;
+      margin: 5px;
+    }
+    </style>
+    
+    <div class="container">
+      <div class="item">Item 1</div>
+      <div class="item" style="flex: 2">Item 2</div>
+      <div class="item">Item 3</div>
+    </div>
+    

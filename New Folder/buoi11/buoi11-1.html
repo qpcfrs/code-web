@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web</title>
+    <style>
+        /* Thiết lập mặc định cho mobile */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 100%;
+            padding: 10px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 16px;
+        }
+
+        /* Tablet (>= 768px) */
+        @media screen and (min-width: 768px) {
+            .container {
+                max-width: 80%;
+                padding: 20px;
+            }
+            h1 {
+                font-size: 28px;
+            }
+            p {
+                font-size: 18px;
+            }
+        }
+
+        /* Desktop (>= 1024px) */
+        @media screen and (min-width: 1024px) {
+            .container {
+                max-width: 60%;
+                padding: 30px;
+            }
+            h1 {
+                font-size: 32px;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Chào mừng đến với trang web responsive!</h1>
+        <p>Trang web này thay đổi giao diện theo kích thước màn hình của bạn.</p>
+    </div>
+</body>
+</html>

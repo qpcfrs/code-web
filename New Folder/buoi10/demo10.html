@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Transition, Transform, Animation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            background-color: #f4f4f4;
+        }
+
+        /* Transition */
+        .button {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+        .button:hover {
+            background-color: #2ecc71;
+            transform: scale(1.1);
+        }
+
+        /* Transform */
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: #e74c3c;
+            margin: 20px;
+            transition: transform 0.3s;
+        }
+        .box:hover {
+            transform: rotate(45deg);
+        }
+
+        /* Animation */
+        .circle {
+            width: 50px;
+            height: 50px;
+            background-color: #f1c40f;
+            border-radius: 50%;
+            animation: bounce 1s infinite alternate;
+        }
+        @keyframes bounce {
+            from {
+                transform: translateY(0);
+            }
+            to {
+                transform: translateY(-30px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <button class="button">Hover Me</button>
+    <div class="box"></div>
+    <div class="circle"></div>
+</body>
+</html>
